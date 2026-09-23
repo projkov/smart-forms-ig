@@ -418,6 +418,7 @@ The server **SHALL** support both."
 * rest.resource[=].versioning = #versioned
 * rest.resource[=].versioning.extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].versioning.extension[0].valueCode = #SHALL
+* rest.resource[=].updateCreate = true
 * rest.resource[=].searchParam[+].name = "patient"
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-patient"
 * rest.resource[=].searchParam[=].type = #reference
